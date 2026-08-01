@@ -1,8 +1,25 @@
 aid: shelf-engine
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shelf-engine.png
 name: Shelf Engine
-description: Shelf Engine is a company surfaced as a portfolio company of general-catalyst, ggv-capital,
-  initialized-capital and added to the API Evangelist network as a stub for enrichment. This profile is
-  a lead awaiting the enrichment pipeline.
+description: 'Shelf Engine was a Seattle-based technology company that used machine
+  learning and AI-driven demand forecasting to help grocery retailers reduce food
+  waste and optimize ordering of perishable and fresh food items. It offered a guaranteed-order
+  model where its forecasting engine predicted demand and absorbed the risk of unsold
+  inventory. Shelf Engine was acquired by / merged into Crisp (gocrisp.com), the retail
+  data platform, and its independent brand is now defunct: shelfengine.com 301-redirects
+  to gocrisp.com. No independent public API, developer portal, SDKs, or OpenAPI surface
+  is published under the Shelf Engine brand.'
 url: https://raw.githubusercontent.com/api-evangelist/shelf-engine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +29,22 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: crisp
+x-acquired-note: shelfengine.com 301-redirects to gocrisp.com; independent brand defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Grocery
+- Retail
+- Food Waste
+- Demand Forecasting
+- Inventory Management
+- Supply Chain
+- Artificial Intelligence
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +52,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shelf-engine-domain-security.yml
 - type: Website
   url: https://www.shelfengine.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
