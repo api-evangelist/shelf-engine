@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.shelfengine.com/', status: 301, note: 'declared website redirects to https://www.gocrisp.com/ — a different registrable domain (shelfengine.com -> gocrisp.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shelf-engine.png
 name: Shelf Engine
 description: 'Shelf Engine was a Seattle-based technology company that used machine
