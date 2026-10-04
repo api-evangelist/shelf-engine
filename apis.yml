@@ -54,10 +54,10 @@ tags:
 - Retail
 - Food Waste
 - Demand Forecasting
-- Inventory Management
+- Inventory
 - Supply Chain
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Grocery
@@ -68,6 +68,7 @@ tags_raw:
 - Supply Chain
 - Artificial Intelligence
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
